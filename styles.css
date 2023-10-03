@@ -1,0 +1,401 @@
+body{
+    /* background-color: rgb(163, 149, 149); */
+    margin: 0;
+}
+.nav{
+    background-color: #f7f7f7;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.searchBar{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 550px;
+    border: solid rgb(230, 147, 147) .5px;
+    border-radius: 18px;
+}
+
+.search{
+    /* font-size: larger; */
+    margin-top: -2px;
+    margin-left: 15px;
+    font-size: 30px;
+    color: rgb(174, 167, 167);
+}
+
+.searchBar input{
+    /* background-color: aqua; */
+    border-radius: 20px;
+    height: 88%;
+    width: 100%;
+    margin-left: 20px;
+    background-color: #f7f7f7;
+    border: none;
+    font-size: larger;
+}
+.menu{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    
+}
+.clicks{
+    margin-right: 20px;
+    font-size: 26px;
+    font-style: bold;
+}
+
+.arrow{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.cars{
+    /* position: relative; */
+    height: 100px;
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px rgba(148, 147, 147, 0.1);
+}
+.divCarImg{
+    width: 100px;
+    height: 100px;
+}
+
+.carImg{
+    width: 100%;
+    height: 100%;
+}
+.movingCar{
+    width: 380px;
+    margin-top: -116px;
+    /* background-color: aqua; */
+}
+.animeCar{
+    position: absolute;
+    /* width: 180px; */
+    right: 0; 
+    animation: moveAnimeCar 5s linear infinite; 
+}
+@keyframes moveAnimeCar {
+    0% {
+        right: 0%; /* Start from the rightmost side */
+    }
+    100% {
+        right: 100%; /* Move to the leftmost side */
+    }
+}
+
+.forCircles{
+    display: flex;
+}
+
+.carsinCircle{
+
+    margin: 3% 3.4% 0 7%;
+}
+.circle {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, #e11c27 0%, #ab1820 100%);
+    border-radius: 50%;
+    position: relative;  
+}
+.circle:hover{
+    transform: scale(1.1);
+}
+.circle img:hover{
+    transform: scale(.9092);
+}
+.graphics{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    /* height: 200px; */
+}
+
+.fireGraphics1{
+    /* height: 100%; */
+    margin-left: 80px;
+    width: 14%;
+}
+.fireGraphics2{
+    /* height: 100%; */
+    width: 14%;
+    transform: scale(-1);
+    margin-right: 80px;
+    /* background-color: aqua; */   
+}
+/* .cup{
+    width: 10%;
+    position: absolute;
+    top: 140px;
+    left: 44.2%;
+} */
+
+.lightning{
+    position: absolute;
+    width: 442.5px;
+    top: 10px;
+    left: -90px;
+}
+.ccc2{
+    position: absolute;
+    width: 517.5px !important;
+    top: 0px;
+    left: -120px;
+}
+
+.ccc3{
+    position: absolute;
+    width: 555px !important;
+    top: 15px;
+    left:-50px;
+}
+.ccc4{
+    position: absolute;
+    width: 455px !important;
+    top: 15px;
+    left: -135px;
+}
+
+.boxes{
+    display: flex;
+    margin-top: 60px;
+    height: 800px;
+    background-color: antiquewhite;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 75%;
+    text-align: center;
+    align-items: center;
+    background-color: #e11c27;
+}
+
+.shopNow{
+    border: none;
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: #ab1820;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
+
+.shopNow:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.b2{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+
+}
+
+.b21{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    background-color:#ab1820;
+}
+
+.car2Detail{
+    font-weight: 700;
+    margin-top: -40px;
+    font-size: 18px;
+}
+
+.b22{
+    width: 50%;
+    height: 100%;
+    background-color:#e11c27;
+}
+
+.b11{
+    display: flex;
+    height: 50%;
+    width: 100%;
+}
+
+.b12{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(255, 30, 0);
+}
+.throttleFall{
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: TTSupermolotBoldItalic,helvetica,sans-serif;
+    font-style: italic;
+    margin-top: 0px;
+    font-style: bold;
+    font-weight: 700
+    ;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.tfDetails{
+    margin-top: 80px;
+    font-size: 28px;
+    padding: 0px 100px 20px 100px;
+    color: white;
+}
+
+
+
+.preOrder{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(255, 94, 0);
+    border: none;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.movie{
+    width: 100%;
+    height: 100%;
+}
+
+.show{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+    span.clicks,.arrow{
+    display: none;
+    }
+    .nav{
+        height: 50px;
+    }
+    .arrow{
+        font-size: 0;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-top: 2px;
+    }
+    .menu{
+        margin-right: 20px;
+    }
+    .searchBar{
+        width: 60px;
+        border: none;
+    }
+    .searchBar input{
+        display: none; 
+    }
+    .tricky{
+        color: rgb(155, 150, 150) !important;
+    }
+    .movingCar{
+        width: 180px;
+        margin-top: 0px;
+    }
+    .search{
+        font-size: smaller;
+        /* color: aqua; */
+    }
+    .forCircles{
+        display: flex;   
+        margin-bottom: 0 !important;
+    }
+    .circle{
+        background: none;
+    }
+    .ccc4{
+        width: 270px !important;
+        position: absolute ;
+        left: 25px;
+    }
+    .ccc1{
+        width: 260px;
+    }
+    .e1{
+       display: none; 
+    }
+    .boxes{
+        margin-top: -40px;
+        display: flex;
+        flex-direction: column;
+    }
+    .b1{
+        display: flex;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .b2{
+        
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .b11{
+        width: 100%;
+    }
+    .tfDetails{
+        display: none;
+    }
+    .throttleFall{
+        margin-top: 20px;
+        font-size: xx-large;
+    }
+    .show{
+        padding: 20px;
+        margin-top: -100px;
+        opacity: 1;
+    }
+    .shopNow{
+        margin-top: 180px;
+        margin-bottom: 1px;
+    }
+    .b11{
+        height: 300px;
+    }
+    .preOrder{
+        background-color:rgb(67, 66, 66);
+        border-radius: 10px;
+    }
+    .car2Detail{
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+}
+
